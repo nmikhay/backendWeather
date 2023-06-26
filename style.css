@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: cover;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 40px;
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.weather-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  border-radius: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+}
+
+.search-button {
+  border-radius: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.content {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.current-weather {
+  display: flex;
+  align-items: center;
+}
+
+.weather-info {
+  flex-grow: 1;
+}
+
+.city {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.country {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.time {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.temperature,
+.humidity,
+.wind-speed {
+  margin-bottom: 5px;
+}
+
+.news {
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.news-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.news-list a {
+  color: inherit;
+}
+
+.article {
+  margin-bottom: 10px;
+}
+
+.article h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.article p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
