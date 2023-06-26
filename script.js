@@ -51,7 +51,7 @@ function getWeatherData(city) {
 }
 
 function getNewsData(city) {
-  return fetch(`http://localhost:3000/news?city=${city}`)
+  return fetch(`/.netlify/functions/get-news?city=${city}`)
     .then((response) => response.json());
 }
 
@@ -78,7 +78,7 @@ function showWeatherData(data) {
   cityElement.textContent = city;
   countryElement.textContent = `Country: ${country}`;
   timeElement.textContent = `Local Time: ${localTime}`;
-  iconElement.src = `http://openweathermap.org/img/wn/${icon}.png`;
+  iconElement.src = `https://openweathermap.org/img/wn/${icon}.png`;
   descriptionElement.textContent = description;
   temperatureElement.textContent = `Temperature: ${temperature}°C`;
   humidityElement.textContent = `Humidity: ${humidity}%`;
